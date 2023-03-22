@@ -32,3 +32,8 @@ nav {
     background: #ddd;
     color: black;
   }
+#vertical-menu{
+  width: 100%;
+  height: 40px;
+  overflow-y: auto;
+}
