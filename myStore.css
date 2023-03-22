@@ -1,0 +1,58 @@
+body{
+    display: block;
+    text-align: -webkit-center;
+}
+#title{
+    margin-top: 70px;
+}
+tr{
+    text-align: center;
+}
+.iframeDiv{
+    border: 5px #00B7F1 solid;
+    border-radius: 3px;
+    margin: auto 10px;
+}
+
+#img-radius{
+    border-radius: 30px;
+}
+
+#product-table tr:nth-child(1) td img{
+    width: 70%;
+}
+
+#product-table tr:nth-child(2) td{
+    font-size: larger;
+}
+
+#product-table tr:nth-child(2) td:hover{
+    background-color: #2AB2F5;
+} 
+
+
+/* The navigation bar */
+nav {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    z-index: 1;
+  }
+  
+  /* Links inside the navbar */
+  nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change background on mouse-over */
+ nav a:hover {
+    background: #ddd;
+    color: black;
+  }

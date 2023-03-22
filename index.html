@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/5320/5320512.png">
+    <link rel="stylesheet" href="myStore.css">
+    <title>FreeKi</title>
+</head>
+
+<body>
+
+    <div id="title" style="border: 2px solid black; border-radius: 100px; width: 800px;">
+        <img style="display: inline-block;" src="https://upload.wikimedia.org/wikipedia/commons/6/64/Logo_Tiki.png" alt="Cheaper than Tiki" width="30%">
+        <h2 style="display: inline-block; transform: translate(0%,-100%);">But everything is FREE 😇</h2>
+    </div>
+    <header>
+        <nav>
+            <a href="#title">Home</a>
+            <a href="#product">Product</a>
+            <a href="#contact">Contact</a>
+        </nav>
+          
+    </header>
+    <br>
+    <div>
+        <div style="position: relative; width: 100%; height: 0; padding-top: 33.3333%; padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden; border-radius: 8px; will-change: transform;">  
+            <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFdv6OsIAs&#x2F;view?embed"> </iframe>
+        </div></a> 
+    </div>
+
+    <main id="product">
+        <div>
+            <table id="product-table">
+                <h2>⬇️In love with Apple Tech⬇️</h2>
+                <tr>
+                    <td><img src="https://salt.tikicdn.com/cache/750x750/ts/product/f5/52/80/675e31a670afc560e7b0e46c0b65fb4f.png.webp" alt="iphone" width="100%"></td>
+                    <td><img src="https://salt.tikicdn.com/cache/750x750/ts/product/54/ff/25/bfdf0febe11a28eaa7cd3fa735a82c49.png.webp" alt="Ipad" width="100%"></td>
+                    <td><img src="https://salt.tikicdn.com/cache/750x750/media/catalog/producttmp/5d/50/5e/1d977cb23133c625f0baf7f4326cf523.jpg.webp" alt="Mac" width="100%"></td>
+                </tr>
+                <tr>
+                    <td><a href="CheckOutForm.html">Iphone 14 Pro superMax</a></td>
+                    <td><a href="CheckOutForm.html">Ipad Big Screen no China</a></td>
+                    <td><a href="CheckOutForm.html">Macbook light-weight thin Air</a></td>
+                </tr>
+                <tr>
+                    <td>🔥<del>$999.99</del> $0🔥</td>
+                    <td>🔥<del>$499.99</del> $0🔥</td>
+                    <td>🔥<del>1299.99</del> $0🔥</td>
+                </tr>
+            </table>
+        </div>
+        <hr>
+        <div id="contact">
+            <table>
+                <tr>
+                    <td><h3>Video for content</h3></td>
+                    <td><h3>Map to Us</h3></td>
+                </tr>
+                <tr>
+                    <td><div class="iframeDiv"><iframe width="560" height="315" src="https://www.youtube.com/embed/bA6J1U0LlMI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div></td>
+                    <td><div class="iframeDiv"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3920.0716553415223!2d106.69357265080681!3d10.728956762963389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752fbea5fe3db1%3A0xfae94aca5709003f!2sRMIT%20University%20Vietnam%20-%20Saigon%20South%20campus!5e0!3m2!1sen!2s!4v1679215690198!5m2!1sen!2s" width="560" height="315" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div></td>
+                </tr>
+            </table>
+        </div>
+    </main>
+    
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+        </script>
+</body>
+</html>
